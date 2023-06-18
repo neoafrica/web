@@ -1,0 +1,71 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: azure;
+    background-image: url("long-haired-gsd.avif");/* background image kudadekii*/
+    background-repeat: no-repeat; /*image not repeat it self due to small size */
+    background-position: center;  /*position image to center*/
+    background-size: cover;        /*cover the whole page regardless of the setting and devices*/
+
+}
+hr {
+    border-color: blue;
+    border-top-style: dashed;
+    border-bottom-style: none;
+}
+h1 {
+    color: rgb(62, 25, 132); /* anatomy of the css syntax
+    selector {property: value;}*/
+    font-weight: bolder; /*boldness of the text or font*/
+}
+h2 {
+    color:  rgb(62, 25, 132);
+}
+.paragraph{
+
+    color: rgb(198, 213, 38); /*class is for group of element while id is for specific
+    element*/
+    font-size:large;
+}
+#paragraph{
+    color: blue;
+}
+a {
+    text-decoration: none;/*removes anchor underline*/
+}
+a:hover{
+    color:#EAF6F6;
+    text-decoration: none; /*hover changes behaviour of elements when pointed*/
+}
+.h3style{
+    color: deepskyblue;
+}
+.shop{
+    height: 50px;
+    width: 160px;
+    /*background-color: rgb(204, 255, 0);*/
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    border:1px solid #057fd0;
+    background-color:#33bdef;
+    background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    padding-bottom: 3px;
+    padding-left: 15px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 240, 14);
+    /*color:#ffffff;*/
+    text-shadow:0px -1px 21px #5b6178;
+    position: fixed; /*The container will not move even after scroll downward*/
+    right: 10px;
+    top: 30px;
+    margin-left: 100px;
+    border-style: solid;
+    border-radius: 24px; 
+    display: inline-block; /*To keep the word and an icon in the same line*/
+}
+.shop:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+    text-decoration-line: none;
+}
+
+    
