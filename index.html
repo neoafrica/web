@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>KIMWEB</title>
+    <script src="https://kit.fontawesome.com/d339c0b847.js" crossorigin="anonymous"></script> <!--A script for adding a icon-->
+    <link rel="stylesheet" href="webstyl/style.css"> <!--External css link to all other pages-->
+    <link rel="icon" href="webstyl/favicon.ico"> <!--Adding icon to our title-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Fonts links-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center;">KIMARO VETERINARY CENTRE </h1>
+    <div class="clientinfo">
+        <table>
+            <tr>
+                <td> </td>
+                <td><!--em for italicize-->
+                    <h2><em>A HOME FOR YOUR ANIMAL</em></h2><br><h3>Client information</h3>
+                    <form action="mailto:kimaroluciano@gmail.com" method="post" enctype="text/plain">
+                         <!--Putting a table inside a form to arrange the values and input-->
+                        <table cellspacing="10" class="clientinfo">
+                            <tbody>
+                                <tr>
+                                    <td><label>first name:</label><!--br for breaking line or new line--></td>
+                                    <td><input name="first name:"type="text"></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><label>Second name:</label></td>
+                                    <td><input name="Second name:" type="text"><br></td><!--Taking input from the user-->
+                                </tr>
+                                <tr>
+                                    <td><label>Animal name:</label></td>
+                                    <td><input name="Animal name:" type="text"><br></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Age of animal:</label></td>
+                                    <td><input name="Age of animal:" type="number" min="0" max="20"> <br></td>
+                                    <td><label>years</label></td>
+                                </tr>
+                                <tr>
+                                    <td><label>phone number:</label></td>
+                                    <td><input name="phone number:" type="tel"><br></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Resident address:</label></td>
+                                    <td><input name="Resident address"  type="text"><br></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Email address:</label></td>
+                                    <td><input name="Email address" type="email"><br></td>
+                                    <td><input type="submit"></td>
+                                </tr>
+                               
+                            </tbody>
+    
+                        </table> 
+                        <label><h3><a href=client_history.html class="h3style">Tell us here how can we help you</a> </h3></label>
+                    </form>
+                
+                </td>   
+                
+            </tr>
+            
+        </table>
+    </div>
+   
+    <!--strong for bolding-->
+    <p class="paragraph">Welcome to kimaro <strong>veterinary centre</strong> where we provide best service for your animal</p></td>
+    <hr> <!--horizontal line-->
+    <!--creating a second page-->
+    <h3 style="text-align: center;"><a href="second.html" class="h3style">SERVICES PROVIDED</a> </h3>
+    
+    <div class="shop">
+        <h3><a href="ourshop.html">OUR STORE</a>&nbsp;<i class="fa-solid fa-cart-shopping"></i></h3>
+        <!--&nbsp- a non break white space btn words and an icon-->
+    </div>
+   
+    <h4>PETTES AND ANIMALS</h4>
+    <!--ordered list with roman numeral type-->
+    <ol type="i" style="line-height: 2;"> <!--line height increase space between upper and lower line-->
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Horse</li>
+        <li>Cow</li>
+    </ol>
+    <p class="paragraph">Common disease affecting petts and domesticated animals</p>
+    <hr>
+    <!--introducing table with (tr-rows) and td-data cells-->
+    <table cellspacing="10"> <!--spacing between table elements-->
+        <thead> <!--table head-->
+            <tr>
+                <th>animal</th> <!--table header cell-->
+                <th>diseases</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dogs</td>
+                <td>manges</td>
+            </tr>
+            <tr>
+                <td>Chicken</td>
+                <td>Worms infestation</td>
+            </tr>
+            <tr>
+                <td>Cows</td>
+                <td>Milk fever</td>
+            </tr>
+            <tr>
+                <td>Goat</td>
+                <td>CCPP</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <hr> 
+    <!--creating a third page for contacts-->
+    <h5><a href="contacts.html">CONTACTS US</a></h5>
+</body>
+
+</html>
